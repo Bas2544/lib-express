@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 const Schema = mongoose.Schema;
 
 const bookSchema = new Schema({
-    book_id:{
+    bookId:{
         type:String,
         require : true,
         unique:true
